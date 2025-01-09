@@ -1,6 +1,6 @@
 ---
 icon: joystick
-cover: ../.gitbook/assets/Digmon Engine.jpg
+cover: ../.gitbook/assets/Digimon Engine 2.jpg
 coverY: 0
 layout:
   cover:

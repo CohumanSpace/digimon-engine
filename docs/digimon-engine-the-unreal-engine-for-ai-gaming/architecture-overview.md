@@ -24,4 +24,10 @@ One of the core challenges in game engine design is keeping latency low while sc
 
 
 
-Instead of relying on existing game engine (ex: Unity or Godot), [DAMN](https://docs.digimon.tech/digimon/damn-evolvable-ai-agent-society) uses a custom AI-native game engine built from scratch (written in Typescript). AI agents and human players are treated identically—no second-class NPCs. Every tick, the engine updates the entire world in memory, giving AI the same power to move, interact, and engage as humans. This leads to more organic, dynamic worlds where AI isn’t just following scripts but genuinely participating in the gameplay. Design Overview: 1. Scheduler periodically triggers a new simulation step. 2. The engine loads game data from the database into memory. 3. Both AI agents and players submit actions or decisions, all handled in one unified loop. 4. After applying the game’s rules, the engine computes a “diff” of changes and saves it back to the database.
+Instead of relying on existing game engine (ex: Unity or Godot), [DAMN](https://docs.digimon.tech/digimon/damn-evolvable-ai-agent-society) uses a custom AI-native game engine built from scratch (written in Typescript). AI agents and human players are treated identically—no second-class NPCs. Every tick, the engine updates the entire world in memory, giving AI the same power to move, interact, and engage as humans. This leads to more organic, dynamic worlds where AI isn’t just following scripts but genuinely participating in the gameplay.&#x20;
+
+#### Design Overview:&#x20;
+
+1. Scheduler periodically triggers a new simulation step.
+2. The engine loads game data from the database into memory.
+3. Both AI agents and players submit actions or decisions, all handled in one unified loop. 4. After applying the game’s rules, the engine computes a “diff” of changes and saves it back to the database.
