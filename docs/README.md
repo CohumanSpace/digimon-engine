@@ -10,11 +10,7 @@ coverY: 0
 
 The concept of [simulacra](https://en.wikipedia.org/wiki/Simulacra_and_Simulation)—representations or imitations of reality—has long fascinated philosophers, sociologists, and technologists. In the context of human society, simulacra take on a profound significance as they evolve from mere representations to fully interactive, predictive, and autonomous systems. With what's made possible with AI and virtual environments, we're recreating the social simulation alive, as no longer confined to theoretical models or academic exercises. Modern social simulations possess the potential to model, predict, and even influence societal behavior in real time.&#x20;
 
-
-
 Remember the days you played Pokémon GO where you can walk around, collect items, pick up Pokémon, and battle with other Pokémon trainers? This is one way and interpretation of the simulacra.
-
-
 
 With the advent the LLM, the AGI interpretation of Simulacra is to create a digital simulation of human society, encompassing but not limiting to:
 
@@ -78,13 +74,9 @@ With the advent the LLM, the AGI interpretation of Simulacra is to create a digi
 2. Conservation (Botswana, Costa Rica)
 3. Industrial and Environmental Neglect (China, India)
 
-
-
 The enumeration goes on infinitely, and this is how complicated our world is. Imagine you're the GOD, how would you create this world without boundary? Let's create it together as individual GODs, and piece them together.
 
-
-
-***
+---
 
 The AI swarm intelligence powered by [DAMN](https://docs.digimon.tech/digimon/technology/evolvable-ai-agent-damn) makes this Simulacra live.
 

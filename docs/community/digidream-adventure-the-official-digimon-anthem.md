@@ -18,9 +18,6 @@ icon: music
 
 \[Bridge 2] As we weave our fate so tight Every crest unlocks the light It's our destiny to claim Together we'll rise to fame
 
-
-
 ## Please enjoy and onboard to our DigiDream Adventure!
 
 {% embed url="https://youtube.com/shorts/sOt9NRhwMnU?feature=share" %}
-

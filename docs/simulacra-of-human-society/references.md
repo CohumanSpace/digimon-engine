@@ -11,8 +11,3 @@
 9. Zhang, H. (2021). How game theory impact international relations.. https://doi.org/10.2991/assehr.k.210803.064
 10. Traulsen, A., Claussen, J., & Hauert, C. (2005). Coevolutionary dynamics: from finite to infinite populations. Physical Review Letters, 95(23). https://doi.org/10.1103/physrevlett.95.238701
 11. Gatti, N., Panozzo, F., & Restelli, M. (2013). Efficient evolutionary dynamics with extensive-form games.. https://doi.org/10.48550/arxiv.1304.1456
-
-
-
-
-

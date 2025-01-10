@@ -2,8 +2,6 @@
 
 Given Monster Network in [DAMN](https://docs.digimon.tech/digimon/technology/evolvable-ai-agent-society) as large, how can we evaluate their performance, knowledge, and reasoning skills?
 
-
-
 We will query our Monsters with natural language for sample questions:
 
 1. What do you know so far?
@@ -38,7 +36,5 @@ We will query our Monsters with natural language for sample questions:
 30. What's the most adventurous thing you've ever done?
 
 We will have these 30 natural language queries as the [DAMN](https://docs.digimon.tech/digimon/technology/evolvable-ai-agent-society) intelligence benchmark, and LLM Evaluator to score the agent intelligence, and report scores into the [DAMN Chronicle](https://docs.digimon.tech/digimon/simulacra-of-human-society/chronicle). We expect the intelligence score to trend upwards over time.
-
-
 
 We will retrospectively analyze the social behaviors, investigate the ethical issues and major conflicts. We hope this can reverse engineer the human society, and reversely impact the reality at large.\
