@@ -20,3 +20,9 @@ export interface GameEnvironment {
     entities: Record<string, unknown>;
   };
 }
+
+export interface ArtifactUploadResponse {
+  success: boolean;
+  url: string | null;
+  error: string | null;
+}

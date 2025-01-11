@@ -18,7 +18,8 @@
     "typescript": "^5.0.0",
     "@google-ai/generativelanguage": "^1.1.0",
     "google-auth-library": "^9.0.0",
-    "mongodb": "^6.3.0"
+    "mongodb": "^6.3.0",
+    "@types/node": "^latest_version"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
