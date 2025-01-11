@@ -32,6 +32,7 @@ Violations of this code may result in:
 - Warnings from senior trainers
 - Temporary suspension of DigiDevice privileges
 - Referral to the Digital World Council
+- In severe cases, confinement in the Digital Prison Ward guarded by MetalTyrannomon and SkullGreymon.
 
 ## Contact
 
