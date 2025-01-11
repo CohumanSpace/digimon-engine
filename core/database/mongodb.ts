@@ -38,6 +38,26 @@ interface ConversationRecord {
   sessionId: string;
 }
 
+interface Position {
+  x: number;
+  y: number;
+  z: number;
+}
+
+interface AgentMovementRecord {
+  agentId: string;
+  position: Position;
+  timestamp: Date;
+}
+
+interface AgentInteractionRecord {
+  agentId1: string;
+  agentId2: string;
+  interactionType: string;
+  details: Record<string, unknown>;
+  timestamp: Date;
+}
+
 /**
  * Save conversation to MongoDB
  */
@@ -87,4 +107,110 @@ export async function closeMongoConnection(): Promise<void> {
     await client.close();
     client = null;
   }
+}
+
+/**
+ * Save agent movement to MongoDB
+ */
+export async function saveAgentMovement(
+  agentId: string,
+  position: { x: number; y: number; z: number },
+  timestamp: Date = new Date(),
+): Promise<void> {
+  try {
+    const collection = await getCollection("agent_movements");
+    const record = {
+      agentId,
+      position,
+      timestamp,
+    };
+    await collection.insertOne(record);
+  } catch (error) {
+    console.error("Failed to save agent movement:", error);
+    throw error;
+  }
+}
+
+/**
+ * Save agent interaction to MongoDB
+ */
+export async function saveAgentInteraction(
+  agentId1: string,
+  agentId2: string,
+  interactionType: string,
+  details: Record<string, unknown>,
+  timestamp: Date = new Date(),
+): Promise<void> {
+  try {
+    const collection = await getCollection("agent_interactions");
+    const record = {
+      agentId1,
+      agentId2,
+      interactionType,
+      details,
+      timestamp,
+    };
+    await collection.insertOne(record);
+  } catch (error) {
+    console.error("Failed to save agent interaction:", error);
+    throw error;
+  }
+}
+
+/**
+ * Get agent movement history
+ */
+export async function getAgentMovements(
+  agentId: string,
+  startTime?: Date,
+  endTime?: Date,
+): Promise<AgentMovementRecord[]> {
+  try {
+    const collection = await getCollection("agent_movements");
+    const query: Record<string, unknown> = { agentId };
+    if (startTime || endTime) {
+      query.timestamp = {};
+      if (startTime) query.timestamp.$gte = startTime;
+      if (endTime) query.timestamp.$lte = endTime;
+    }
+    return await collection.find(query).sort({ timestamp: -1 }).toArray();
+  } catch (error) {
+    console.error("Failed to get agent movements:", error);
+    throw error;
+  }
+}
+
+/**
+ * Get agent interaction history
+ */
+export async function getAgentInteractions(
+  agentId: string,
+  startTime?: Date,
+  endTime?: Date,
+): Promise<AgentInteractionRecord[]> {
+  try {
+    const collection = await getCollection("agent_interactions");
+    const query: Record<string, unknown> = {
+      $or: [{ agentId1: agentId }, { agentId2: agentId }],
+    };
+    if (startTime || endTime) {
+      query.timestamp = {};
+      if (startTime) query.timestamp.$gte = startTime;
+      if (endTime) query.timestamp.$lte = endTime;
+    }
+    return await collection.find(query).sort({ timestamp: -1 }).toArray();
+  } catch (error) {
+    console.error("Failed to get agent interactions:", error);
+    throw error;
+  }
+}
+
+/**
+ * Helper function to get collection
+ */
+async function getCollection(collectionName: string) {
+  if (!client) {
+    await connectToMongo();
+  }
+  return client.db().collection(collectionName);
 }
