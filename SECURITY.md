@@ -1,6 +1,6 @@
 # Security Policy
 
-If you are deploying Ray, read [Whitepaper ](https://docs.digimon.tech/digimon).
+If you are deploying Digimon Engine, read [Whitepaper ](https://docs.digimon.tech/digimon).
 
 ## Reporting a vulnerability
 
