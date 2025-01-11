@@ -18,6 +18,6 @@ layout:
     visible: true
 ---
 
-# Digimon Engine: The Unreal Engine for AI Gaming
+# Digimon Engine: Multi-Agent, Multi-Player Framework for AI-Native Games and Agentic Metaverse
 
 Digimon Engine is an open-source gaming platform similar to Unreal Engine for AI gaming. It supports social and financial AI Agents, enabling immersive AI-native gameplay. We are preparing to onboard new games featuring AI Agent NPCs. Our aim is to create an AI agent framework to build a Westworld-like environment.
