@@ -26,3 +26,21 @@ export interface ArtifactUploadResponse {
   url: string | null;
   error: string | null;
 }
+
+export interface ScoreMetrics {
+  [key: string]: number;
+  communicationClarity?: number;
+  empathyLevel?: number;
+  responseAppropriateness?: number;
+  contextualAwareness?: number;
+  resourceManagement?: number;
+  decisionMaking?: number;
+  riskAssessment?: number;
+  marketAwareness?: number;
+}
+
+export interface SkillScore {
+  score: number;
+  metrics: ScoreMetrics;
+  timestamp: Date;
+}
