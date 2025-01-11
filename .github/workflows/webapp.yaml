@@ -3,7 +3,9 @@ name: Webapp
 on:
   push:
     paths:
+      - "core/**"
       - "src/**"
+      - ".github/workflows/**"
 
 jobs:
   webapp:
