@@ -1,0 +1,36 @@
+name: Webapp
+
+on:
+  push:
+    paths:
+      - "core/**"
+
+jobs:
+  webapp:
+    defaults:
+      run:
+        working-directory: core
+
+    timeout-minutes: 60
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set date
+        run: echo "CURRENT_DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
+        working-directory: /tmp
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.10.0
+      - name: Install dependencies
+        run: npm install
+      # - name: Run TypeScript check
+      #   run: npm run typecheck
+      - name: Run eslint check
+        run: npm run lint
+      - name: Run prettier check
+        run: npm run format-check
