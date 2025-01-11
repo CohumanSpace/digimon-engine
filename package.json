@@ -19,7 +19,12 @@
     "@google-ai/generativelanguage": "^1.1.0",
     "google-auth-library": "^9.0.0",
     "mongodb": "^6.3.0",
-    "@types/node": "^latest_version"
+    "@types/node": "^latest_version",
+    "@google-cloud/secret-manager": "^4.0.0",
+    "@google-cloud/scheduler": "^3.0.0",
+    "@google-cloud/storage": "^6.0.0",
+    "@google-cloud/run": "^1.0.0",
+    "@google-cloud/compute": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
