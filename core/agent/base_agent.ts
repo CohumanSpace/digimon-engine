@@ -1,4 +1,4 @@
-import { ChatMessage, ModelConfig } from "../types";
+import { ChatMessage, ModelConfig } from "../../utils/types";
 
 export interface BaseAgent {
   modelName: string;

@@ -1,4 +1,4 @@
-import { GameEnvironment } from "../types/environment";
+import { GameEnvironment } from "../types";
 
 export interface ArtifactEffect {
   type: string;
