@@ -1,10 +1,10 @@
 # Table of contents
 
-* [Digimon Engine: Multi-Agent, Multi-Player Framework for AI-Native Games and Agentic Metaverse](README.md)
-  * [Metaverse for AI Agents](digimon-engine-multi-agent-multi-player-framework-for-ai-native-games-and-agentic-metaverse/metaverse-for-ai-agents.md)
-  * [AI Agents in Gaming is the next step toward AGI?](digimon-engine-multi-agent-multi-player-framework-for-ai-native-games-and-agentic-metaverse/ai-agents-in-gaming-is-the-next-step-toward-agi.md)
-  * [Architecture Overview](digimon-engine-multi-agent-multi-player-framework-for-ai-native-games-and-agentic-metaverse/architecture-overview.md)
-  * [Tech Stack](digimon-engine-multi-agent-multi-player-framework-for-ai-native-games-and-agentic-metaverse/tech-stack.md)
+* [Digimon Engine](README.md)
+  * [Metaverse for AI Agents](digimon-engine/metaverse-for-ai-agents.md)
+  * [AI Agents in Gaming is the next step toward AGI?](digimon-engine/ai-agents-in-gaming-is-the-next-step-toward-agi.md)
+  * [Architecture Overview](digimon-engine/architecture-overview.md)
+  * [Tech Stack](digimon-engine/tech-stack.md)
 * [Simulacra of Human Society](<README (1).md>)
   * [A Paradigm Shift in Social Simulation](simulacra-of-human-society/a-paradigm-shift-in-social-simulation.md)
   * [Simulacra](simulacra-of-human-society/simulacra.md)
