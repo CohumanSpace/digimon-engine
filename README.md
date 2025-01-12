@@ -1,6 +1,6 @@
 # 👾 Digimon Engine 🧌
 
-![Digimon Engine](./assets/digimon-engine.jpg)
+![Digimon Engine](./assets/digimon-engine.png)
 - [Documentation](https://docs.digimon.tech/digimon): Learn how to use Digimon Engine to build your own games
 - [Digimon Trainers Community](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Join the community to get help and share your games
 - [Sample Game: DAMN](https://damn.fun): Play the sample game built with Digimon Engine
@@ -41,7 +41,13 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 # 💰 Launch a game with Digimon Engine and its token:
 
 
-## Please don't forget to tip the cute Digimon 10%
+## The 1st Game built with Digimon Engine: DAMN (https://damn.fun)
+![DAMN](./assets/damn-logo.png)
+- The AI-native game that is damn fun! 
+- [DAMN on X Live Stream](https://x.com/digimon_tech/live): Watch the live stream of the game
+
+
+## Please don't forget to tip the cute Digimon 10% of your token supply
 [Afcg6gaouRZTo8goQa3UhwGcBrtWkDj2NgpebtmjxBKf](https://solscan.io/account/Afcg6gaouRZTo8goQa3UhwGcBrtWkDj2NgpebtmjxBKf)
 
 # Quick Start
@@ -51,7 +57,7 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 - [npm 11.0.0](https://www.npmjs.com/get-npm)
 - [node 23.3.0](https://nodejs.org/en/download/)
 
-### Community & contact
+### Community & Contact
 
 - [GitHub Issues](https://github.com/CohumanSpace/digimon-engine/issues). Best for: bugs you encounter using Digimon Engine, and feature proposals.
 - [Discord](Incoming). Best for: sharing your applications and hanging out with the community.
@@ -62,3 +68,6 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 <a href="https://github.com/CohumanSpace/digimon-engine/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CohumanSpace/digimon-engine" />
 </a>
+
+
+![Digimon](./assets/digimon-logo.png)
