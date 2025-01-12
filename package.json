@@ -1,8 +1,8 @@
 {
-  "name": "llm-agent-interface",
+  "name": "digimon-engine",
   "version": "1.0.0",
   "type": "module",
-  "description": "Multi-LLM Agent Interface",
+  "description": "Digimon Engine",
   "main": "index.js",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.10.0",
