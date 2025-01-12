@@ -1,8 +1,22 @@
-# 👾 Digimon Engine 🧌
+# 👾 Digimon Engine
 
-![Digimon Engine](./assets/digimon-engine.png)
+<div align="center">
+  <img src="./assets/digimon-engine.png" alt="Digimon Engine Banner" width="100%" />
+</div>
+
+</p>
+<p align="center">
+<a href="https://x.com/digimon_tech">🐦 Twitter</a>
+<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+<a href="https://t.me/+iW4XMrHPc-5mMzhh">📢 Telegram</a>
+<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+<a href="https://www.digimon.tech/">🌐 Website</a>
+<span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+<a href="https://docs.digimon.tech/digimon">📙 Documentation</a>
+</p>
+
 - [Documentation](https://docs.digimon.tech/digimon): Learn how to use Digimon Engine to build your own games
-- [Digimon Trainers Community](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Join the community to get help and share your games
+- [Community](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Join the community to get help and share your games
 - [Sample Game: DAMN](https://damn.fun): Play the sample game built with Digimon Engine
   - [DAMN on X Live Stream](https://x.com/digimon_tech/live): Watch the live stream of the game
   - [Solana AI Hackathon Demo](https://www.youtube.com/watch?v=NNQWY-ByZww): Watch the demo of the game and the engine
@@ -38,17 +52,13 @@ Digimon Engine is an open-source gaming platform similar to Unreal Engine for AI
 Further details can be found in the [Architecture Overview](https://docs.digimon.tech/digimon/digimon-engine/architecture-overview).
 
 
-# 💰 Launch a game with Digimon Engine and its token:
+# 💰 Launch a AI native game with Digimon Engine:
 
 
 ## The 1st Game built with Digimon Engine: DAMN (https://damn.fun)
 ![DAMN](./assets/damn-logo.png)
 - The AI-native game that is damn fun! 
 - [DAMN on X Live Stream](https://x.com/digimon_tech/live): Watch the live stream of the game
-
-
-## Please don't forget to tip the cute Digimon 10% of your token supply
-[Afcg6gaouRZTo8goQa3UhwGcBrtWkDj2NgpebtmjxBKf](https://solscan.io/account/Afcg6gaouRZTo8goQa3UhwGcBrtWkDj2NgpebtmjxBKf)
 
 # Quick Start
 
@@ -60,8 +70,7 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 ### Community & Contact
 
 - [GitHub Issues](https://github.com/CohumanSpace/digimon-engine/issues). Best for: bugs you encounter using Digimon Engine, and feature proposals.
-- [Discord](Incoming). Best for: sharing your applications and hanging out with the community.
-- [Developer Discord](Incoming). Best for: getting help and plugin development.
+- [Telegram](https://t.me/+iW4XMrHPc-5mMzhh). Best for: sharing your applications and hanging out with the community.
 
 ## Contributors
 
@@ -70,4 +79,3 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 </a>
 
 
-![Digimon](./assets/digimon-logo.png)

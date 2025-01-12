@@ -1,4 +1,4 @@
-# CODE OF CONDUCT
+# NOTICE
 
 ## Additional Terms – Digimon Engine Clause
 

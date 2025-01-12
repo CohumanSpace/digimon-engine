@@ -1,6 +1,6 @@
 # 👾 数码兽引擎 🧌
 
-![数码兽引擎](./assets/digimon-engine.jpg)
+![数码兽引擎](./assets/digimon-engine.png)
 - [文档](https://docs.digimon.tech/digimon)：了解如何使用数码兽引擎构建您自己的游戏
 - [数码兽训练师社区](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers)：加入社区获取帮助并分享您的游戏
 - [示例游戏：DAMN](https://damn.fun)：体验使用数码兽引擎构建的示例游戏
@@ -37,9 +37,6 @@
 更多详情请参阅[架构概述](https://docs.digimon.tech/digimon/digimon-engine/architecture-overview)。
 
 # 💰 使用数码兽引擎及其代币启动游戏：
-
-## 请别忘了给可爱的数码兽10%的小费
-[Afcg6gaouRZTo8goQa3UhwGcBrtWkDj2NgpebtmjxBKf](https://solscan.io/account/Afcg6gaouRZTo8goQa3UhwGcBrtWkDj2NgpebtmjxBKf)
 
 # 快速开始
 
