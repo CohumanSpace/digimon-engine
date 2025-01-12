@@ -6,8 +6,9 @@
 - [Sample Game: DAMN](https://damn.fun): Play the sample game built with Digimon Engine
   - [DAMN on X Live Stream](https://x.com/digimon_tech/live): Watch the live stream of the game
   - [Solana AI Hackathon Demo](https://www.youtube.com/watch?v=NNQWY-ByZww): Watch the demo of the game and the engine
-<!-- # 🌍 README Translations
-[English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [한국어](./README.ko-KR.md) | [日本語](./README.ja-JP.md) | [Deutsch](./README.de-DE.md) | [Français](./README.fr-FR.md) | [Português](./README.pt-BR.md) | [Italiano](./README.it-IT.md) | [Español](./README.es-ES.md) | [Русский](./README.ru-RU.md) | [Türkçe](./README.tr-TR.md) | [Polski](./README.pl-PL.md) -->
+
+# 🌍 README Translations
+[English](./README.md) | [简体中文](./README.zh-CN.md) | [繁體中文](./README.zh-TW.md) | [한국어](./README.ko-KR.md) | [日本語](./README.ja-JP.md) | [Deutsch](./README.de-DE.md) | [Français](./README.fr-FR.md) | [Português](./README.pt-BR.md) | [Italiano](./README.it-IT.md) | [Español](./README.es-ES.md) | [Русский](./README.ru-RU.md) | [Türkçe](./README.tr-TR.md) | [Polski](./README.pl-PL.md)
 
 # Overview
 ## Digimon Engine: Multi-Agent, Multi-Player Framework for AI-Native Games and Agentic Metaverse
