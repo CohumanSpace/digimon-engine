@@ -1,6 +1,6 @@
-# 👾 디지몬 엔진 🧌
+# 👾 디지몬 엔진
 
-![디지몬 엔진](./assets/digimon-engine.jpg)
+![디지몬 엔진](./assets/digimon-engine.png)
 - [문서](https://docs.digimon.tech/digimon): 디지몬 엔진으로 게임을 만드는 방법 배우기
 - [디지몬 트레이너 커뮤니티](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): 커뮤니티에 참여하여 도움을 받고 게임을 공유하세요
 - [샘플 게임: DAMN](https://damn.fun): 디지몬 엔진으로 만든 샘플 게임 플레이
