@@ -15,8 +15,6 @@
 <a href="https://docs.digimon.tech/digimon">📙 Documentation</a>
 </p>
 
-- [Documentation](https://docs.digimon.tech/digimon): Learn how to use Digimon Engine to build your own games
-- [Community](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Join the community to get help and share your games
 - [Sample Game: DAMN](https://damn.fun): Play the sample game built with Digimon Engine
   - [DAMN on X Live Stream](https://x.com/digimon_tech/live): Watch the live stream of the game
   - [Solana AI Hackathon Demo](https://www.youtube.com/watch?v=NNQWY-ByZww): Watch the demo of the game and the engine
