@@ -15,21 +15,6 @@
 <a href="https://docs.digimon.tech/digimon">📙 Documentation</a>
 </p>
 
-<!-- <div align="center">
-  <a href="https://github.com/CohumanSpace/digimon-engine/issues">
-    <img src="https://img.shields.io/github/issues/CohumanSpace/digimon-engine" alt="GitHub issues">
-  </a>
-  <a href="https://github.com/CohumanSpace/digimon-engine/network">
-    <img src="https://img.shields.io/github/forks/CohumanSpace/digimon-engine" alt="GitHub forks">
-  </a>
-  <a href="https://github.com/CohumanSpace/digimon-engine/stargazers">
-    <img src="https://img.shields.io/github/stars/CohumanSpace/digimon-engine" alt="GitHub stars">
-  </a>
-  <a href="https://github.com/CohumanSpace/digimon-engine/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/CohumanSpace/digimon-engine" alt="GitHub license">
-  </a>
-</div> -->
-
 - [Documentation](https://docs.digimon.tech/digimon): Learn how to use Digimon Engine to build your own games
 - [Community](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Join the community to get help and share your games
 - [Sample Game: DAMN](https://damn.fun): Play the sample game built with Digimon Engine
@@ -87,11 +72,10 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 - [GitHub Issues](https://github.com/CohumanSpace/digimon-engine/issues). Best for: bugs you encounter using Digimon Engine, and feature proposals.
 - [Telegram](https://t.me/+iW4XMrHPc-5mMzhh). Best for: sharing your applications and hanging out with the community.
 
-<!-- ## Contributors -->
+## Contributors
 
-<!-- <a href="https://github.com/CohumanSpace/digimon-engine/graphs/contributors">
+<a href="https://github.com/CohumanSpace/digimon-engine/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=CohumanSpace/digimon-engine" />
-</a> -->
+</a>
 
-<!-- 
-![Digimon](./assets/digimon-logo.png) -->
+
