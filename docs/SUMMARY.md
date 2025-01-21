@@ -6,6 +6,7 @@
   * [DIGIMON Tokenomics](digimon-engine/digimon-tokenomics.md)
   * [Architecture Overview](digimon-engine/architecture-overview.md)
   * [Tech Stack](digimon-engine/tech-stack.md)
+* [Digimon Studio](digimon-studio.md)
 * [Simulacra of Human Society](<README (1).md>)
   * [A Paradigm Shift in Social Simulation](simulacra-of-human-society/a-paradigm-shift-in-social-simulation.md)
   * [Simulacra](simulacra-of-human-society/simulacra.md)
