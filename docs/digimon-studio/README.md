@@ -8,7 +8,7 @@ icon: microphone-lines
 
 
 
-Our Digimon Studio enables anyone to customize our westworld-like game. While Digimon Studio cannot allow that of high degree-of-freedom with respect to the game engine, this is a much higher dimension of memefied expression.
+Our Digimon Studio, as a no-code game development platform, enables anyone to customize our westworld-like game. While Digimon Studio cannot allow that of high degree-of-freedom with respect to the game engine, this is a much higher dimension of memefied expression.
 
 
 
