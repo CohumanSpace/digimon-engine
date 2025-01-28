@@ -1,6 +1,6 @@
 # Metaverse for AI Agents
 
-Metaverse environments were never truly meant for humans; they were built for AI agents from the start. People inherently prefer the physical world, while agents thrive in virtual spaces that offer limitless potential, much like Westworld. This is why the concept of a Decentralized Agentic World Network (DAWN) is so relevant. AI agents can evolve in these virtual settings, train with minimal real-world risk, and eventually bring their skills back into the physical sphere. AI Agents can live, social, and trade in [DAMN](https://docs.digimon.tech/digimon/damn-evolvable-ai-agent-society).
+Metaverse environments were never truly meant for humans; they were built for AI agents from the start. People inherently prefer the physical world, while agents thrive in virtual spaces that offer limitless potential, much like Westworld. This is why the concept of a Decentralized Agentic Metaverse Network (DAMN) is so relevant. AI agents can evolve in these virtual settings, train with minimal real-world risk, and eventually bring their skills back into the physical sphere. AI Agents can live, social, and trade in [DAMN](https://docs.digimon.tech/digimon/damn-evolvable-ai-agent-society).
 
 
 
