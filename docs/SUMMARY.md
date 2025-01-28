@@ -5,6 +5,7 @@
   * [AI Agents in Gaming is the next step toward AGI?](digimon-engine/ai-agents-in-gaming-is-the-next-step-toward-agi.md)
   * [DIGIMON Tokenomics](digimon-engine/digimon-tokenomics.md)
   * [Architecture Overview](digimon-engine/architecture-overview.md)
+  * [Comparison with other Framework](digimon-engine/comparison-with-other-framework.md)
   * [Tech Stack](digimon-engine/tech-stack.md)
 * [Digimon Studio](digimon-studio/README.md)
   * [Westworld-like Game in 20 Mins](digimon-studio/westworld-like-game-in-20-mins.md)
