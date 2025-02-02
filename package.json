@@ -5,6 +5,10 @@
   "description": "Digimon Engine",
   "main": "index.js",
   "dependencies": {
+    "@coinbase/agentkit": "^0.1.0",
+    "@coinbase/agentkit-langchain": "^0.1.0",
+    "@langchain/langgraph": "^0.2.44",
+    "@langchain/openai": "^0.4.2",
     "@anthropic-ai/sdk": "^0.10.0",
     "@aws-sdk/client-bedrock-runtime": "^3.0.0",
     "@google-ai/generativelanguage": "^1.1.0",
