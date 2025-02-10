@@ -33,7 +33,7 @@ With the advent the LLM, the AGI interpretation of Simulacra is to create a digi
 
 1. Christianity (Western societies)
 2. Islam (Middle East, Southeast Asia)
-3. Huiduism (India)
+3. Hinduism (India)
 4. Shinto (Japan)
 
 #### Military Regime&#x20;
