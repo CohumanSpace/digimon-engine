@@ -34,6 +34,11 @@
 * [Background](vision/background.md)
 * [Product Roadmap](vision/product-roadmap.md)
 
+***
+
+* [Develop](develop/README.md)
+  * [Damn SDK](develop/damn-sdk.md)
+
 ## Community
 
 * [Welcome Aboard Digimon Trainers!](community/welcome-aboard-digimon-trainers.md)

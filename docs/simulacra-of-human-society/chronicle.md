@@ -20,7 +20,7 @@ We don't be simulating this part inside DAMN. Instead, we will use [MemGPT](http
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-12-18 at 10.36.59 PM.png" alt=""><figcaption><p>Documents uploaded to archival storage as DAMN Chronicle.</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>LLM Memory Management via MemGPT</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>LLM Memory Management via MemGPT</p></figcaption></figure>
 
 * Per commitment to not annoy our cute monsters by respecting their privacy, we won't share these chronicles until the [DIGIMON](https://dexscreener.com/solana/7qd4j6khtxm45swgl4cki9fuguruw5mwictg4pht73gn) reaches $1B MC and will keep it as a mystery in our Virtual Machine on Google Cloud for now. We will have all events and histories in the form of a Python [OrderedDict](https://docs.python.org/3/library/collections.html#collections.OrderedDict) object, which can be serialized and deserialized.
 
