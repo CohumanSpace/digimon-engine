@@ -36,7 +36,7 @@
 
 ***
 
-* [Develop](develop/README.md)
+* [Developer  Guide](developer-guide/README.md)
   * [Damn SDK](develop/damn-sdk.md)
 
 ## Community

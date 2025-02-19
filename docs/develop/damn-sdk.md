@@ -6,17 +6,19 @@ DAMN SDK—DAMN.FUN's NodeJS Server SDK for deploying AI-native games powered Di
 
 ### Quickstart
 
-#### Requirement
-
-node > 18.19
-
-#### Install
+#### 0. Requirement
 
 ```
+node > 18.19
+```
+
+#### 1. Install
+
+```bash
 npm install @digimon/damn-sdk
 ```
 
-#### Get your API key
+#### 2. Get your API key
 
 Visit [damn.fun](https://damn.fun/)
 
@@ -24,7 +26,7 @@ Visit [damn.fun](https://damn.fun/)
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-#### Create a client
+#### 3. Create a client
 
 ```typescript
 const baseUrl = 'https://node.damn.fun';
@@ -32,7 +34,7 @@ const apiKey = 'your api key';
 const client = new ApiClient({ baseUrl, apiKey });
 ```
 
-#### Upload assets(png, jpg, mp3, etc.)
+#### 3.1 Upload assets(png, jpg, mp3, etc.)
 
 The game assets, such as images, audio files, etc., need to be uploaded through the upload API first. After obtaining the storageId, it can be used for other APIs.
 
@@ -44,7 +46,7 @@ The second parameter is the file name. You can customize the file name, and it c
 client.upload('./damn-logo.png', 'damn-logo.png');
 ```
 
-#### Create map
+#### 3.2 Create map
 
 Create a game map. Game maps are a resource abstraction, and the specific asset files must be uploaded through the upload interface.
 
@@ -60,7 +62,7 @@ client.createMap({
 });
 ```
 
-#### Update map
+#### 3.3 Update map
 
 Update the game map.
 
@@ -71,7 +73,7 @@ client.updateMap({
 });
 ```
 
-#### Map list
+#### 3.4 Map list
 
 Get a list of all created game maps.
 
@@ -79,7 +81,7 @@ Get a list of all created game maps.
 client.getMapList();
 ```
 
-#### Create music
+#### 3.5 Create music
 
 Create game music. Game music is an abstract resource, and the actual material files need to be uploaded via the upload interface.
 
@@ -94,7 +96,7 @@ client.createMusic({
 });
 ```
 
-#### Update music
+#### 3.6 Update music
 
 Update game music.
 
@@ -105,7 +107,7 @@ client.updateMusic({
 });
 ```
 
-#### Music list
+#### 3.7 Music list
 
 Get a list of all the created game music.
 
@@ -113,7 +115,7 @@ Get a list of all the created game music.
 client.getMusicList();
 ```
 
-#### Create agent
+#### 3.8 Create agent
 
 Create an AI agent character within the game.
 
@@ -129,7 +131,7 @@ client.createAgent({
 });
 ```
 
-#### Update agent
+#### 3.9 Update agent
 
 Update AI agent character.
 
@@ -140,7 +142,7 @@ client.updateAgent({
 });
 ```
 
-#### Agent list
+#### 3.10 Agent list
 
 Get a list of all created AI agent characters.
 
@@ -148,7 +150,7 @@ Get a list of all created AI agent characters.
 client.getAgentList();
 ```
 
-#### Create game
+#### 4. Create game
 
 Create a game.
 
@@ -166,7 +168,7 @@ client.createGame({
 });
 ```
 
-#### Update game
+#### 4.1 Update game
 
 Update the game.
 
@@ -177,7 +179,7 @@ client.updateGame({
 });
 ```
 
-#### Game list
+#### 4.2 Game list
 
 Get all the games that have been created.
 
@@ -185,7 +187,7 @@ Get all the games that have been created.
 client.getGameList();
 ```
 
-#### Get world status
+#### 4.3 Get world status
 
 Get the game’s running status. The result includes world status, number of online players, and other details.
 
@@ -193,7 +195,7 @@ Get the game’s running status. The result includes world status, number of onl
 client.gameData.getWorldStatus('game id');
 ```
 
-#### Get agent player list
+#### 4.4 Get agent player list
 
 Get the list of all AI agent players in the game.
 
@@ -201,7 +203,7 @@ Get the list of all AI agent players in the game.
 client.gameData.getAgentPlayerList('game id');
 ```
 
-#### Get human player list
+#### 4.5 Get human player list
 
 Get the list of human players in the game. This API supports pagination.
 
@@ -209,7 +211,7 @@ Get the list of human players in the game. This API supports pagination.
 client.gameData.getHumanPlayerList('game id', { numItems: 10, cursor: null });
 ```
 
-#### Get player
+#### 4.6 Get player
 
 Get information about a player.
 
@@ -217,7 +219,7 @@ Get information about a player.
 client.gameData.getPlayer('game id', 'player id like p:0');
 ```
 
-#### Get conversation list
+#### 4.7 Get conversation list
 
 Get the list of player conversations in the game. This interface supports pagination.
 
@@ -225,7 +227,7 @@ Get the list of player conversations in the game. This interface supports pagina
 client.gameData.getConversationList('game id', { numItems: 10, cursor: null });
 ```
 
-#### Get message list
+#### 4.8 Get message list
 
 Get the list of all chat messages within a conversation.
 
