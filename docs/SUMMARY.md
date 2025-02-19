@@ -26,6 +26,8 @@
   * [Monsters](damn-evolvable-ai-agent-society/monsters.md)
   * [Single -> Network](damn-evolvable-ai-agent-society/single-greater-than-network.md)
   * [References](damn-evolvable-ai-agent-society/references.md)
+* [Developer  Guide](developer-guide/README.md)
+  * [Damn SDK](develop/damn-sdk.md)
 
 ## VISION
 
@@ -33,11 +35,6 @@
 * [Core Philosophies](vision/core-philosophies.md)
 * [Background](vision/background.md)
 * [Product Roadmap](vision/product-roadmap.md)
-
-***
-
-* [Developer  Guide](developer-guide/README.md)
-  * [Damn SDK](develop/damn-sdk.md)
 
 ## Community
 
