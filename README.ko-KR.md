@@ -4,7 +4,7 @@
 - [문서](https://docs.digimon.tech/digimon): 디지몬 엔진으로 게임을 만드는 방법 배우기
 - [디지몬 트레이너 커뮤니티](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): 커뮤니티에 참여하여 도움을 받고 게임을 공유하세요
 - [샘플 게임: DAMN](https://damn.fun): 디지몬 엔진으로 만든 샘플 게임 플레이
-  - [DAMN X 라이브 스트림](https://x.com/digimon_tech/live): 게임 라이브 스트림 시청
+  - [DAMN X 라이브 스트림](https://x.com/damndotfun/live): 게임 라이브 스트림 시청
   - [Solana AI 해커톤 데모](https://www.youtube.com/watch?v=NNQWY-ByZww): 게임과 엔진 데모 시청
 
 # 🌍 README 번역
