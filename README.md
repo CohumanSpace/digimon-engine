@@ -75,7 +75,6 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 ## Contributors
 
 <a href="https://github.com/CohumanSpace/digimon-engine/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=CohumanSpace/digimon-engine" />
+  <img src="https://contrib.rocks/image?repo=CohumanSpace/digimon-engine" alt="Contributors" />
 </a>
-
 
