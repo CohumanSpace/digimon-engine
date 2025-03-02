@@ -6,10 +6,10 @@ icon: handshake-simple
 
 * Website: [https://www.digimon.tech/](https://www.digimon.tech/)
 * Digimon Whitepaper: [https://docs.digimon.tech/digimon](https://docs.digimon.tech/digimon)
-* X: [https://x.com/digimon\_tech](https://x.com/digimon_tech)
+* X: [https://x.com/digimon\_tech](https://x.com/damndotfun)
 * Telegram: [https://t.me/+iW4XMrHPc-5mMzhh](https://t.me/+iW4XMrHPc-5mMzhh)
 * YouTube: [https://www.youtube.com/shorts/sOt9NRhwMnU](https://www.youtube.com/shorts/sOt9NRhwMnU)
-* TikTok: [https://www.tiktok.com/@digimon\_tech](https://www.tiktok.com/@digimon_tech)
+* TikTok: [https://www.tiktok.com/@digimon\_tech](https://www.tiktok.com/@damndotfun)
 
 
 

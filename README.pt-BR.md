@@ -4,7 +4,7 @@
 - [Documentação](https://docs.digimon.tech/digimon): Aprenda como usar o Digimon Engine para criar seus próprios jogos
 - [Comunidade de Treinadores Digimon](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Junte-se à comunidade para obter ajuda e compartilhar seus jogos
 - [Jogo de Exemplo: DAMN](https://damn.fun): Jogue o jogo de exemplo construído com o Digimon Engine
-  - [DAMN na Transmissão ao Vivo do X](https://x.com/digimon_tech/live): Assista à transmissão ao vivo do jogo
+  - [DAMN na Transmissão ao Vivo do X](https://x.com/damndotfun/live): Assista à transmissão ao vivo do jogo
   - [Demo do Hackathon Solana AI](https://www.youtube.com/watch?v=NNQWY-ByZww): Assista à demonstração do jogo e do engine
 
 # 🌍 Traduções do README

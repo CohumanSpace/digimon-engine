@@ -4,7 +4,7 @@
 - [文檔](https://docs.digimon.tech/digimon)：了解如何使用數碼寶貝引擎製作您自己的遊戲
 - [數碼寶貝訓練師社群](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers)：加入社群以獲得幫助並分享您的遊戲
 - [示例遊戲：DAMN](https://damn.fun)：體驗使用數碼寶貝引擎製作的示例遊戲
-  - [DAMN 在 X 的直播](https://x.com/digimon_tech/live)：觀看遊戲直播
+  - [DAMN 在 X 的直播](https://x.com/damndotfun/live)：觀看遊戲直播
   - [Solana AI 黑客松演示](https://www.youtube.com/watch?v=NNQWY-ByZww)：觀看遊戲和引擎的演示
 
 # 🌍 README 翻譯

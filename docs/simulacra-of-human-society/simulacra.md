@@ -23,11 +23,11 @@ The [DAMN](https://docs.digimon.tech/digimon/technology/evolvable-ai-agent-damn)
 
 * Digimon Evolution (each Agent is evolvable with new appearances, personalities, intelligence, and vibe)
 
-{% embed url="https://www.tiktok.com/@digimon_tech/video/7448655619860466962?is_from_webapp=1&sender_device=pc&web_id=7444755620697523730" %}
+{% embed url="https://www.tiktok.com/@damndotfun/video/7448655619860466962?is_from_webapp=1&sender_device=pc&web_id=7444755620697523730" %}
 Digimon Zoomie at Birth
 {% endembed %}
 
-{% embed url="https://www.tiktok.com/@digimon_tech/video/7449651066846661904?is_from_webapp=1&sender_device=pc&web_id=7444755620697523730" %}
+{% embed url="https://www.tiktok.com/@damndotfun/video/7449651066846661904?is_from_webapp=1&sender_device=pc&web_id=7444755620697523730" %}
 Digimon Zoomie Evolution from Birth to 100K
 {% endembed %}
 

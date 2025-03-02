@@ -4,7 +4,7 @@
 - [文档](https://docs.digimon.tech/digimon)：了解如何使用数码兽引擎构建您自己的游戏
 - [数码兽训练师社区](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers)：加入社区获取帮助并分享您的游戏
 - [示例游戏：DAMN](https://damn.fun)：体验使用数码兽引擎构建的示例游戏
-  - [DAMN X直播](https://x.com/digimon_tech/live)：观看游戏直播
+  - [DAMN X直播](https://x.com/damndotfun/live)：观看游戏直播
   - [Solana AI黑客马拉松演示](https://www.youtube.com/watch?v=NNQWY-ByZww)：观看游戏和引擎演示
 
 # 🌍 README 翻译

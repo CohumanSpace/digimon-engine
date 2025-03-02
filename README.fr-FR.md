@@ -4,7 +4,7 @@
 - [Documentation](https://docs.digimon.tech/digimon) : Apprenez à utiliser le Moteur Digimon pour créer vos propres jeux
 - [Communauté des Dresseurs Digimon](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers) : Rejoignez la communauté pour obtenir de l'aide et partager vos jeux
 - [Jeu exemple : DAMN](https://damn.fun) : Jouez au jeu exemple créé avec le Moteur Digimon
-  - [Stream en direct DAMN sur X](https://x.com/digimon_tech/live) : Regardez le stream en direct du jeu
+  - [Stream en direct DAMN sur X](https://x.com/damndotfun/live) : Regardez le stream en direct du jeu
   - [Démo du Hackathon Solana AI](https://www.youtube.com/watch?v=NNQWY-ByZww) : Regardez la démo du jeu et du moteur
 
 # 🌍 Traductions du README

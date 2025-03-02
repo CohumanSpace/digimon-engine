@@ -6,7 +6,7 @@
 
 </p>
 <p align="center">
-<a href="https://x.com/digimon_tech">🐦 Twitter</a>
+<a href="https://x.com/damndotfun">🐦 Twitter</a>
 <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
 <a href="https://t.me/+iW4XMrHPc-5mMzhh">📢 Telegram</a>
 <span>&nbsp;&nbsp;|&nbsp;&nbsp;</span>
@@ -18,7 +18,7 @@
 - [Documentation](https://docs.digimon.tech/digimon): Learn how to use Digimon Engine to build your own games
 - [Community](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Join the community to get help and share your games
 - [Sample Game: DAMN](https://damn.fun): Play the sample game built with Digimon Engine
-  - [DAMN on X Live Stream](https://x.com/digimon_tech/live): Watch the live stream of the game
+  - [DAMN on X Live Stream](https://x.com/damndotfun/live): Watch the live stream of the game
   - [Solana AI Hackathon Demo](https://www.youtube.com/watch?v=NNQWY-ByZww): Watch the demo of the game and the engine
 
 # 🌍 README Translations
@@ -58,7 +58,7 @@ Further details can be found in the [Architecture Overview](https://docs.digimon
 ## The 1st Game built with Digimon Engine: DAMN (https://damn.fun)
 ![DAMN](./assets/damn-logo.png)
 - The AI-native game that is damn fun! 
-- [DAMN on X Live Stream](https://x.com/digimon_tech/live): Watch the live stream of the game
+- [DAMN on X Live Stream](https://x.com/damndotfun/live): Watch the live stream of the game
 
 # Quick Start
 
