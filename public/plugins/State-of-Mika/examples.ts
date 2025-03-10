@@ -325,11 +325,16 @@ async function getDetailedMarketAnalysis(topic: string, userId: string) {
   
   const dataClient = createApiClient({
     // Optional custom config
-    logger: customLogger
+    logger: {
+      info: (msg: string) => console.log(`[INFO] ${msg}`),
+      error: (message: string | Error) => console.error(`[ERROR] ${message}`),
+      warn: (msg: string) => console.warn(`[WARN] ${msg}`),
+      debug: (msg: string) => console.debug(`[DEBUG] ${msg}`)
+    }
   });
   
   const result = await dataClient.query(`Provide detailed market analysis about ${topic}`, {
-    type: 'web_search',  // Use web search for more up-to-date info
+    tool: 'web_search',  // Use web search for more up-to-date info
     sessionId: userId,   // Track by user ID
     timeout: 20000       // Longer timeout for complex queries
   });
