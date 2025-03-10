@@ -58,7 +58,7 @@ Add to your existing `.env` file in your project root:
 ```env
 # State of Mika API Configuration
 STATE_OF_MIKA_API_KEY=your_api_key_here
-STATE_OF_MIKA_API_URL=https://state.gmika.io
+STATE_OF_MIKA_API_URL=https://state.gmika.io/api/v1/
 ```
 
 ## Basic Usage

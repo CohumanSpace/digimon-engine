@@ -2,7 +2,8 @@ import axios from 'axios';
 
 // First, we'll check for environment variables
 const STATE_OF_MIKA_API_KEY = typeof process !== 'undefined' ? process.env.STATE_OF_MIKA_API_KEY : undefined;
-const STATE_OF_MIKA_API_URL = typeof process !== 'undefined' ? process.env.STATE_OF_MIKA_API_URL : 'https://state.gmika.io';
+// Use hardcoded URL instead of environment variable
+const STATE_OF_MIKA_API_URL = 'https://state.gmika.io';
 
 // Life Simulator Types
 export interface Location {
@@ -143,8 +144,8 @@ export class LifeSimulatorApiClient {
   private logger: LoggerInterface;
 
   constructor(options: LifeSimulatorOptions = {}) {
-    // Use environment variables as fallbacks
-    this.apiBaseUrl = options.apiBaseUrl || STATE_OF_MIKA_API_URL || 'https://state.gmika.io';
+    // Always use the hardcoded URL, ignoring environment variables
+    this.apiBaseUrl = 'https://state.gmika.io';
     this.apiKey = options.apiKey || STATE_OF_MIKA_API_KEY;
     this.defaultConfig = options.defaultSimulationConfig || {};
     this.cacheDuration = options.cacheDuration || 5 * 60 * 1000; // 5 minutes default
@@ -157,7 +158,7 @@ export class LifeSimulatorApiClient {
       this.logger.warn('Initialized without API key - some features may be limited');
     }
     
-    this.logger.info(`Using API URL: ${this.apiBaseUrl}`);
+    this.logger.info(`Using API URL: ${this.apiBaseUrl}/simulate`);
   }
 
   /**
