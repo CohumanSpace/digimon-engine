@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # DIGIMON Tokenomics
 
 DIGIMON Token Address (SOL): WEmjxPMGXEW1Nvc4rCgRKiWHj1H1tvhPsKMw2yvpump
