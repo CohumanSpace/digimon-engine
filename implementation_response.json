@@ -1,0 +1,150 @@
+{
+  "activity": {
+    "main_action": "Working",
+    "location": {
+      "current": "Test Home",
+      "destination": "Test Office"
+    },
+    "reason": "Based on the time which is early morning on a weekday, Test User would likely be commuting from home to her office to start work as a software developer.",
+    "narrative": "On a brisk Monday morning, March 10th, 2025, at 9:52 AM UTC, 23-year-old Test User finds herself amidst the bustling streets of New York City. The crisp, clear sky above reveals a temperature of 6.52°C, a typical early spring day in the city that never sleeps. Test User, a diligent software developer, is about to embark on her daily commute from her cozy Test Home to the modern Test Office where she works.\n\nThe vibrant energy of the city surrounds her as she navigates through the crowded sidewalks, passing by towering skyscrapers that gleam in the morning sunlight. The diverse mix of people from various cultures and backgrounds rushing to their destinations adds to the dynamic atmosphere. Street vendors are setting up their carts, filling the air with the aroma of fresh bagels and hot coffee, quintessential scents of a New York morning.\n\nTest User, dressed in a stylish yet professional outfit, blends in with the other young professionals who are also making their way to work. Despite the early hour, she radiates a sense of purpose and determination, ready to tackle the challenges of the day ahead. As she approaches the subway station, she takes a moment to check the transit information on her smartphone.\n\nThe subway system, the lifeline of New York City, is already buzzing with activity. Test User considers her options, weighing factors such as train delays, crowding levels, and departure times. The 2 Train (7 Av Express) appears to be the most efficient choice, with no reported delays and a departure time of 9:59 AM. However, the high crowding level gives her pause, as the ongoing pandemic has heightened her awareness of personal space and health precautions.\n\nAlternatively, she could take the R Train (Broadway Local) and transfer to the F Train (6 Av Local), which has a slight delay of one minute but would still get her to the office in a reasonable 21 minutes. The F Train (6 Av Local) by itself is another viable option, with a 4-minute delay and medium crowding, departing at 10:02 AM.\n\nAs Test User descends the stairs into the subway station, she is greeted by the familiar sights and sounds of the underground world. The distant rumble of approaching trains, the eclectic mix of commuters, and the occasional street performer add to the unique ambiance. She quickly locates her MetroCard and swipes it at the turnstile, seamlessly blending into the sea of passengers.\n\nTest User's mind is already focused on the projects and meetings that await her at the office. As a young professional in the fast-paced tech industry, she is driven by her passion for innovation and her desire to make a meaningful impact. The short commute provides her with a few precious moments to mentally prepare for the day ahead, reviewing her to-do list and responding to any urgent emails on her phone.\n\nAs she boards the chosen train, Test User finds a spot to stand, gripping the handrail as the train lurches forward. The diversity of her fellow passengers is a reminder of the rich tapestry of cultures that make up New York City. Despite the crowded conditions, there is a shared sense of purpose and resilience among the commuters, each pursuing their own dreams and goals in the city of opportunity.\n\nWith each stop, the train grows more crowded, but Test User remains focused, her mind already at her desk, ready to dive into the complex world of code and algorithms. As the train approaches her destination, she takes a deep breath, steeling herself for another day of challenges and triumphs in the dynamic world of software development.\n\nTest User emerges from the subway station, greeted by the towering edifice of her office building. With a quick glance at her watch, she realizes she has arrived with time to spare. She enters the building, ready to contribute her skills and expertise to the ever-evolving tech landscape of New York City. The day ahead promises to be filled with innovation, collaboration, and the satisfaction of creating something meaningful in the heart of one of the world's most iconic cities.",
+    "details": {
+      "time": "2025-03-10 09:52",
+      "weather": {
+        "condition": "Clear",
+        "temperature": 6.52,
+        "details": {
+          "coord": {
+            "lon": -73.9932,
+            "lat": 40.6936
+          },
+          "weather": [
+            {
+              "id": 800,
+              "main": "Clear",
+              "description": "clear sky",
+              "icon": "01n"
+            }
+          ],
+          "base": "stations",
+          "main": {
+            "temp": 6.52,
+            "feels_like": 4.27,
+            "temp_min": 4.92,
+            "temp_max": 7.85,
+            "pressure": 1010,
+            "humidity": 51,
+            "sea_level": 1010,
+            "grnd_level": 1009
+          },
+          "visibility": 10000,
+          "wind": {
+            "speed": 3.09,
+            "deg": 220
+          },
+          "clouds": {
+            "all": 0
+          },
+          "dt": 1741600361,
+          "sys": {
+            "type": 1,
+            "id": 4610,
+            "country": "US",
+            "sunrise": 1741605331,
+            "sunset": 1741647423
+          },
+          "timezone": -14400,
+          "id": 5128581,
+          "name": "New York",
+          "cod": 200
+        }
+      },
+      "transit_info": {
+        "departures": [
+          {
+            "line_name": "2 Train (7 Av Express)",
+            "delay_minutes": 0,
+            "crowding_level": "High",
+            "next_departure": "2025-03-10T09:59:24+00:00"
+          },
+          {
+            "line_name": "R Train (Broadway Local) → F Train (6 Av Local)",
+            "delay_minutes": 1,
+            "crowding_level": "High",
+            "next_departure": "2025-03-10T09:58:30+00:00"
+          },
+          {
+            "line_name": "F Train (6 Av Local)",
+            "delay_minutes": 4,
+            "crowding_level": "Medium",
+            "next_departure": "2025-03-10T10:02:32+00:00"
+          }
+        ],
+        "routes": [
+          {
+            "line_name": "2 Train (7 Av Express)",
+            "departure_time": "2025-03-10T09:59:24+00:00",
+            "arrival_time": "2025-03-10T10:16:24+00:00",
+            "duration_minutes": 17,
+            "transfers": 0,
+            "sections": [
+              "2 Train (7 Av Express)"
+            ]
+          },
+          {
+            "line_name": "R Train (Broadway Local) → F Train (6 Av Local)",
+            "departure_time": "2025-03-10T09:58:30+00:00",
+            "arrival_time": "2025-03-10T10:19:32+00:00",
+            "duration_minutes": 21,
+            "transfers": 1,
+            "sections": [
+              "R Train (Broadway Local)",
+              "F Train (6 Av Local)"
+            ]
+          },
+          {
+            "line_name": "F Train (6 Av Local)",
+            "departure_time": "2025-03-10T10:02:32+00:00",
+            "arrival_time": "2025-03-10T10:19:32+00:00",
+            "duration_minutes": 17,
+            "transfers": 0,
+            "sections": [
+              "F Train (6 Av Local)"
+            ]
+          },
+          {
+            "line_name": "3 Train (7 Av Express)",
+            "departure_time": "2025-03-10T10:05:01+00:00",
+            "arrival_time": "2025-03-10T10:22:01+00:00",
+            "duration_minutes": 17,
+            "transfers": 0,
+            "sections": [
+              "3 Train (7 Av Express)"
+            ]
+          },
+          {
+            "line_name": "F Train (6 Av Local) → D Train (6 Av Express)",
+            "departure_time": "2025-03-10T10:02:32+00:00",
+            "arrival_time": "2025-03-10T10:18:37+00:00",
+            "duration_minutes": 16,
+            "transfers": 1,
+            "sections": [
+              "F Train (6 Av Local)",
+              "D Train (6 Av Express)"
+            ]
+          },
+          {
+            "line_name": "2 Train (7 Av Express)",
+            "departure_time": "2025-03-10T10:12:38+00:00",
+            "arrival_time": "2025-03-10T10:29:38+00:00",
+            "duration_minutes": 17,
+            "transfers": 0,
+            "sections": [
+              "2 Train (7 Av Express)"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "incident": null
+}
