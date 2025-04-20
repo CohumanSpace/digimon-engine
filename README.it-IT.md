@@ -1,6 +1,6 @@
-# 👾 Motore Digimon 🧌
+# 👾 Motore Digimon
 
-![Motore Digimon](./assets/digimon-engine.jpg)
+![Motore Digimon](./assets/digimon-engine.png)
 - [Documentazione](https://docs.digimon.tech/digimon): Impara a usare il Motore Digimon per creare i tuoi giochi
 - [Comunità degli Allenatori Digimon](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Unisciti alla comunità per ricevere aiuto e condividere i tuoi giochi
 - [Gioco di esempio: DAMN](https://damn.fun): Gioca al gioco di esempio creato con il Motore Digimon
@@ -13,6 +13,20 @@
 # Panoramica
 ## Motore Digimon: Framework Multi-Agente, Multi-Giocatore per Giochi IA-Nativi e Metaverso Agentico
 Il Motore Digimon è una piattaforma di gioco open-source simile a Unreal Engine per i giochi con IA. Supporta Agenti IA sociali e finanziari, permettendo un gameplay IA-nativo immersivo. Ci stiamo preparando a integrare nuovi giochi con NPC Agenti IA. Il nostro obiettivo è creare un framework di agenti IA per costruire un ambiente simile a Westworld.
+
+## Panoramica del Server MCP
+
+Integrazione perfetta con **clienti esterni**, **LLMs** e **agenti IA**, combinando le architetture del **protocollo MCP**, **SDK DAMN.FUN** e **Motore Digimon**. Questo include la costruzione di webhook e nuovi endpoint REST API per la creazione esterna di giochi/agenti, proprietà e connettività dei wallet.
+
+<div align="center">
+  <img src="./assets/mcp-server.png" alt="MCP Server Banner" width="100%" />
+</div>
+
+- Componenti principali dell'architettura MCP:
+  - **Host, Clienti, Server**: Design modulare per la scalabilità.
+  - **Modelli di Trasporto**: STDIO (Input/Output Standard) + SSE (Eventi Inviati dal Server) per la comunicazione in tempo reale.
+  - **Linguaggio & Runtime**: TypeScript per la logica principale del server MCP.
+  - **Deployment**: Docker per una scalabilità containerizzata e indipendente dall'ambiente.
 
 ## Panoramica dell'Architettura
 

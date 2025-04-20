@@ -28,6 +28,21 @@
 ## Digimon Engine: Multi-Agent, Multi-Player Framework for AI-Native Games and Agentic Metaverse
 Digimon Engine is an open-source gaming platform similar to Unreal Engine for AI gaming. It supports social and financial AI Agents, enabling immersive AI-native gameplay. We are preparing to onboard new games featuring AI Agent NPCs. Our aim is to create an AI agent framework to build a Westworld-like environment.
 
+## MCP Server Overview
+
+Seamless integration with **external clients**, **LLMs**, and **AI agents**, combining architectures from **MCP protocol**, **DAMN.FUN SDK**, and **Digimon Engine**. This includes building webhooks and new REST API endpoints for external game/agent creation, ownership, and wallet connectivity.  
+
+<div align="center">
+  <img src="./assets/mcp-server.png" alt="MCP Server Banner" width="100%" />
+</div>
+
+- Key components of the MCP architecture:  
+  - **Hosts, Clients, Servers**: Modular design for scalability.  
+  - **Transport Models**: STDIO (Standard Input/Output) + SSE (Server-Sent Events) for real-time communication.  
+  - **Language & Runtime**: TypeScript for MCP Server core logic.  
+  - **Deployment**: Docker for containerized, environment-agnostic scaling.
+
+
 ## Architecture Overview
 
 - Agents: Each monster/agent has a unique identity and motivations, roaming the world, talking, and forming relationships. In the future, agents would reference prior interactions—extracted from a vector database (Pinecone) of memory embeddings—so every conversation and decision is informed by past encounters (persistence memory).

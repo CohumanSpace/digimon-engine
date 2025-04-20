@@ -1,6 +1,6 @@
 # 🐾 數碼寶貝引擎 🧌
 
-![數碼寶貝引擎](./assets/digimon-engine.jpg)
+![數碼寶貝引擎](./assets/digimon-engine.png)
 - [文檔](https://docs.digimon.tech/digimon)：了解如何使用數碼寶貝引擎製作您自己的遊戲
 - [數碼寶貝訓練師社群](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers)：加入社群以獲得幫助並分享您的遊戲
 - [示例遊戲：DAMN](https://damn.fun)：體驗使用數碼寶貝引擎製作的示例遊戲
@@ -13,6 +13,20 @@
 # 概述
 ## 數碼寶貝引擎：AI原生遊戲和智能元宇宙的多智能體、多玩家框架
 數碼寶貝引擎是一個類似虛幻引擎的開源AI遊戲平台。它支持社交和金融AI智能體，實現沉浸式AI原生遊戲體驗。我們正在準備引入新的遊戲，這些遊戲將具有AI智能體NPC。我們的目標是創建一個AI智能體框架，以建立類似西部世界的環境。
+
+## MCP 伺服器概述
+
+與**外部客戶端**、**LLMs**和**AI智能體**無縫集成，結合**MCP協議**、**DAMN.FUN SDK**和**數碼寶貝引擎**的架構。這包括構建用於外部遊戲/智能體創建、所有權和錢包連接的webhooks和新的REST API端點。
+
+<div align="center">
+  <img src="./assets/mcp-server.png" alt="MCP Server Banner" width="100%" />
+</div>
+
+- MCP架構的關鍵組件：
+  - **主機、客戶端、伺服器**：可擴展的模塊化設計。
+  - **傳輸模型**：STDIO（標準輸入/輸出）+ SSE（伺服器發送事件）用於實時通信。
+  - **語言和運行時**：TypeScript用於MCP伺服器核心邏輯。
+  - **部署**：Docker用於容器化、環境無關的擴展。
 
 ## 架構概述
 
