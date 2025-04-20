@@ -1,6 +1,6 @@
-# 👾 Digimon Engine 🧌
+# 👾 Digimon Engine
 
-![Digimon Engine](./assets/digimon-engine.jpg)
+![Digimon Engine](./assets/digimon-engine.png)
 - [Dokümantasyon](https://docs.digimon.tech/digimon): Kendi oyunlarınızı oluşturmak için Digimon Engine'i nasıl kullanacağınızı öğrenin
 - [Digimon Eğitmenleri Topluluğu](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Yardım almak ve oyunlarınızı paylaşmak için topluluğa katılın
 - [Örnek Oyun: DAMN](https://damn.fun): Digimon Engine ile oluşturulmuş örnek oyunu oynayın
@@ -13,6 +13,20 @@
 # Genel Bakış
 ## Digimon Engine: Yapay Zeka Tabanlı Oyunlar ve Akıllı Metaverse için Çoklu-Ajan, Çok Oyunculu Framework
 Digimon Engine, yapay zeka oyunları için Unreal Engine'e benzer bir açık kaynak oyun platformudur. Sosyal ve finansal YZ Ajanlarını destekleyerek, sürükleyici YZ tabanlı oyun deneyimi sunar. YZ Ajan NPC'leri içeren yeni oyunları entegre etmeye hazırlanıyoruz. Amacımız, Westworld benzeri bir ortam oluşturmak için bir YZ ajan framework'ü geliştirmektir.
+
+## MCP Sunucu Genel Bakış
+
+**Harici istemciler**, **LLM'ler** ve **YZ ajanları** ile sorunsuz entegrasyon, **MCP protokolü**, **DAMN.FUN SDK** ve **Digimon Engine** mimarilerini birleştirir. Bu, harici oyun/ajan oluşturma, sahiplik ve cüzdan bağlantısı için web kancaları ve yeni REST API uç noktalarının oluşturulmasını içerir.
+
+<div align="center">
+  <img src="./assets/mcp-server.png" alt="MCP Server Banner" width="100%" />
+</div>
+
+- MCP mimarisinin temel bileşenleri:
+  - **Ana Bilgisayarlar, İstemciler, Sunucular**: Ölçeklenebilirlik için modüler tasarım.
+  - **Taşıma Modelleri**: Gerçek zamanlı iletişim için STDIO (Standart Giriş/Çıkış) + SSE (Sunucu Gönderilen Olaylar).
+  - **Dil ve Çalışma Zamanı**: MCP Sunucu çekirdek mantığı için TypeScript.
+  - **Dağıtım**: Konteynerleştirilmiş, ortamdan bağımsız ölçeklendirme için Docker.
 
 ## Mimari Genel Bakış
 

@@ -1,6 +1,6 @@
-# 👾 Digimon Engine 🧌
+# 👾 Digimon Engine
 
-![Digimon Engine](./assets/digimon-engine.jpg)
+![Digimon Engine](./assets/digimon-engine.png)
 - [Documentação](https://docs.digimon.tech/digimon): Aprenda como usar o Digimon Engine para criar seus próprios jogos
 - [Comunidade de Treinadores Digimon](https://docs.digimon.tech/digimon/community/welcome-aboard-digimon-trainers): Junte-se à comunidade para obter ajuda e compartilhar seus jogos
 - [Jogo de Exemplo: DAMN](https://damn.fun): Jogue o jogo de exemplo construído com o Digimon Engine
@@ -13,6 +13,20 @@
 # Visão Geral
 ## Digimon Engine: Framework Multi-Agente e Multiplayer para Jogos Nativos em IA e Metaverso Agêntico
 O Digimon Engine é uma plataforma de jogos de código aberto similar ao Unreal Engine para jogos com IA. Ele suporta Agentes de IA sociais e financeiros, permitindo uma jogabilidade imersiva nativa em IA. Estamos nos preparando para integrar novos jogos com NPCs baseados em Agentes de IA. Nosso objetivo é criar um framework de agentes de IA para construir um ambiente similar ao de Westworld.
+
+## Visão Geral do Servidor MCP
+
+Integração perfeita com **clientes externos**, **LLMs** e **agentes de IA**, combinando arquiteturas do **protocolo MCP**, **SDK DAMN.FUN** e **Digimon Engine**. Isso inclui a construção de webhooks e novos endpoints REST API para criação externa de jogos/agentes, propriedade e conectividade de carteiras.
+
+<div align="center">
+  <img src="./assets/mcp-server.png" alt="MCP Server Banner" width="100%" />
+</div>
+
+- Componentes principais da arquitetura MCP:
+  - **Hosts, Clientes, Servidores**: Design modular para escalabilidade.
+  - **Modelos de Transporte**: STDIO (Entrada/Saída Padrão) + SSE (Eventos Enviados pelo Servidor) para comunicação em tempo real.
+  - **Linguagem & Runtime**: TypeScript para lógica principal do servidor MCP.
+  - **Implantação**: Docker para escalabilidade conteinerizada e independente de ambiente.
 
 ## Visão Geral da Arquitetura
 
